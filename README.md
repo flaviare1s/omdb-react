@@ -18,7 +18,7 @@ Siga os passos abaixo para rodar o projeto em sua máquina local.
 
 1. Clonar o projeto
 ````bash
-git clone [https://github.com/flaviare1s/omdb-react.git](https://github.com/flaviare1s/omdb-react.git)
+git clone https://github.com/flaviare1s/omdb-react.git
 ````
 
 2. Instalar as Dependências
