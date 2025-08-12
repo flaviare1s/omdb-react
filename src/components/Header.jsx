@@ -1,4 +1,6 @@
+import { FaMoon, FaSun } from "react-icons/fa"
 import { Link } from "react-router-dom"
+import { ThemeToggle } from "./ThemeToggle"
 
 export const Header = () => {
   return (
@@ -10,6 +12,7 @@ export const Header = () => {
         <div className="space-x-4">
           <Link to="/" className="hover:text-yellow-400 transition">Search</Link>
           <Link to="/favorites" className="hover:text-yellow-400 transition">Favorites</Link>
+          <ThemeToggle />
         </div>
       </nav>
     </header>
