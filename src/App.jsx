@@ -10,7 +10,7 @@ export default function App() {
   return (
     <Router>
       <Header />
-      <main className="min-h-screen bg-gray-100">
+      <main className="min-h-screen">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/movie/:id" element={<MovieDetails />} />

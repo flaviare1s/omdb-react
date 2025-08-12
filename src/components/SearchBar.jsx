@@ -9,7 +9,7 @@ export const SearchBar = ({ searchTerm, setSearchTerm, handleSearch }) => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         placeholder="Search for movies..."
-        className="w-full sm:w-2/3 p-3 rounded-lg border border-gray-300 shadow-sm focus:outline-none"
+        className="w-full sm:w-2/3 p-3 rounded-lg border border-gray-300 shadow-sm focus:outline-none bg-white"
       />
       <button
         type="submit"
